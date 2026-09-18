@@ -1,0 +1,22 @@
+Build the Shield Max Unified Business Platform frontend demo using this entire build pack as the specification.
+
+Read `MASTER_ANTIGRAVITY_PROMPT.md` first and then all documents it references.
+
+Create a NEW standalone project named `shieldmax-unified-demo`. Do not modify the existing Shield Max ERP and do not connect to any backend/database/API.
+
+The result must demonstrate three connected experiences in one Shield Max visual family:
+1. Public Storefront
+2. Website/Admin Control
+3. Existing-style ERP Business Operations
+
+The critical live demo is:
+Storefront → Add products to Quote List → submit RFQ → RFQ appears in Control Center → convert to internal quotation with 3-decimal KWD prices → confirm sale → show delivery/invoice linkage.
+
+Also demonstrate:
+Website Admin → edit shared product website settings → Save & Preview → storefront changes.
+
+Use only Shield Max colors and typography defined in `DESIGN_SYSTEM.md`. Use the supplied storefront screenshots only as structural UX references, not as brand/color references.
+
+Do not show public prices anywhere.
+
+Follow `QA_CHECKLIST.md` before handoff.

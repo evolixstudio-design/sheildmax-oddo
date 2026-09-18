@@ -1,0 +1,46 @@
+{
+  "project_name": "Shield Max Unified Business Platform Demo",
+  "client": "Shield Max Safety Kuwait",
+  "project_type": "frontend-only connected product demo",
+  "production_system": "Existing Shield Max ERP",
+  "storefront_replacement": "Custom Shield Max storefront; Shopify will not be part of the target platform",
+  "demo_goal": "Show one platform controlling storefront, website administration and ERP operations",
+  "demo_backend": false,
+  "database": false,
+  "external_paid_apis": false,
+  "target_stack": {
+    "frontend": "React + TypeScript + Vite",
+    "styling": "Tailwind CSS",
+    "icons": "Lucide React",
+    "routing": "React Router",
+    "state": "Zustand or React Context",
+    "charts": "Recharts if already available; otherwise lightweight CSS/SVG"
+  },
+  "brand_tokens": {
+    "primary_orange": "#F97316",
+    "brand_amber": "#F2A93B",
+    "dark": "#0F172A",
+    "ink": "#111827",
+    "surface": "#FFFFFF",
+    "page": "#F8FAFC",
+    "border": "#E2E8F0"
+  },
+  "currency": "KWD",
+  "currency_precision": 3,
+  "languages": [
+    "English",
+    "Arabic"
+  ],
+  "default_public_pricing": "Price on Request",
+  "primary_demo_flow": [
+    "Storefront",
+    "Add products to Quote List",
+    "Submit RFQ",
+    "Open Control Center",
+    "See new Website RFQ",
+    "Convert RFQ to Quotation",
+    "Enter current KWD pricing internally",
+    "Confirm Sale",
+    "Show linked Inventory / Delivery / Invoice state"
+  ]
+}
